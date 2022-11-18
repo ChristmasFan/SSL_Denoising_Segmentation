@@ -11,4 +11,4 @@ Check config parameters within the main() function. You can specify the number o
 ## Training a single pseudo-label iteration
 python train_ssl.py
 
-Check config parameters within the main() function. Besides the specification of the number of labelled sampled and the path to the dataset, you also have to specify the path to the weights to the teacher model, which will be used to calculate pseudo-labels.
+Check config parameters within the main() function. Besides the specification of the number of labelled samples and the path to the dataset, you also have to specify the path to the weights to the teacher model, which will be used to calculate pseudo-labels.
