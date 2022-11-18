@@ -11,6 +11,6 @@ python train_seg.py
 Check config parameters within the main() function. You can specify the number of labelled samples used for training. The path to the dataset can be specified as well. Model weights and training information will be logged in './runs'
 
 # Training a single pseudo-label iteration
-Python train_pl_iteration.py
+python train_pl_iteration.py
 
-Check config parameters within the main() function. Besides the specification of the number of labelled sampled and the path to the dataset, you also have to specify the path to the weights to the teacher model, which will be used to calculate pseudo-labels.
+Check config parameters within the main() function. Besides the specification of the number of labelled samples and the path to the dataset, you also have to specify the path to the weights to the teacher model, which will be used to calculate pseudo-labels.
