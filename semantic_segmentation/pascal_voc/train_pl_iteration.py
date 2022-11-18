@@ -457,7 +457,7 @@ def main():
               'path_to_pascal_dataset': "./datasets/pascal",
               'path_to_augmented_pascal_dataset': "./datasets/pascal_aug",
               'num_labeled_imgs': 92,
-              'teacher_path': "/data/ssd1/scherese/2022/semantic_segmentation/pascal/runs/pl/pascal/seg/92/2022.11.18-10:55-Pascal_Imgs=92_Seed=2408/weights/whole_model/Pascal_Imgs=92_Seed=2408.pth",
+              'teacher_path': None, # specify path to teacher model here
               'full_img_size': True,
               'warm_up_unsupervised': 0,
               'loss_function': "SCE", #"SCE" or "CE"
